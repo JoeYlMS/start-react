@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const User = ({id,name,username, email, phone}) => {
+const User = ({name,username, email, phone}) => {
     return (
         <div className='user_card' >
             <h3>{name}</h3>
